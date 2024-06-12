@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "neural_nets"
+version = "0.1.0"
+description = ""
+authors = ["Mark Patmore <eromtap86@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "neural_nets"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
